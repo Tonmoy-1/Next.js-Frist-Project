@@ -16,7 +16,7 @@ export default async function RootLayout({ children }) {
   const user = await getUser();
 
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <body className="bg-gray-100 text-gray-900">
         <header className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg">
           <nav className="container mx-auto flex items-center justify-between py-4 px-6">
