@@ -5,7 +5,3 @@ export default withKindeAuth({
   logoutPath: "/api/auth/logout",
   postLoginRedirectUri: "/profile",
 });
-
-export const config = {
-  matcher: ["/profile"],
-};
